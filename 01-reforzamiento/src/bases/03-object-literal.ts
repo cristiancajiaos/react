@@ -1,4 +1,17 @@
-const unknown = {
+
+interface Person {
+  firstName: string;
+  lastName: string;
+  age: number;
+  address: address;
+}
+
+interface address {
+  postalCode: string;
+  city: string;
+}
+
+const unknown: Person = {
   firstName: "John",
   lastName: "Doe",
   age: 50,
@@ -8,6 +21,7 @@ const unknown = {
   }
 };
 
+/*
 const desconocido = structuredClone(unknown);
 
 unknown.firstName = "Perico";
@@ -16,3 +30,4 @@ unknown.age = 45;
 unknown.address.city = 'Boston';
 
 console.log(unknown, desconocido);
+*/
