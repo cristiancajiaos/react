@@ -8,9 +8,20 @@ import './style.css'
 // import './bases/07-array-destructuring';
 import './bases/08-imp-exp';
 
+// Tarea de Importación y Exportación
+// import { Owner } from './data/heroes.data';
+// import { getHeroesByOwner } from './bases/08-imp-exp';
+
+
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hola, mundo!</h1>
   </div>
 `;
+
+// Tarea de Importación y Exportación
+// console.log(getHeroesByOwner(Owner.Marvel));
+
+
 
